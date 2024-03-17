@@ -47,3 +47,31 @@ int main() {
 
     return 0;
 }
+
+
+/* With Multi Functions */
+#include <iostream>
+using namespace std;
+
+int main() {
+float a, b, c, d, e, f, j, h, i;
+
+cout<<"Enter the first number \n";
+cin>>a;
+cout<<"Enter the second number \n";
+cin>>b;
+cout<<"Enter the third number \n";
+cin>>j;
+cout<<"Enter the fourth number \n";
+cin>>h;
+cout<<"Enter the fifth number \n";
+cin>>i;
+c = a + b + j + h + i;
+d = a - b - j - h - i;
+e = a * b * j * h * i;
+f = a / b / j / h / i;
+cout<<"addition is "<<c<<endl;
+cout<<"minus is "<<d<<endl;
+cout<<"multiplication is "<<d<<endl;
+cout<<"division is "<<f<<endl;
+}
