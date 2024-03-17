@@ -75,3 +75,32 @@ cout<<"minus is "<<d<<endl;
 cout<<"multiplication is "<<d<<endl;
 cout<<"division is "<<f<<endl;
 }
+
+
+/* With Multi Functions More Organized */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+float a, b, c, d, e, add, sub, multi, divi;
+
+cout<<"Enter the first number \n";
+cin>>a;
+cout<<"Enter the second number \n";
+cin>>b;
+cout<<"Enter the third number \n";
+cin>>c;
+cout<<"Enter the fourth number \n";
+cin>>d;
+cout<<"Enter the fifth number \n";
+cin>>e;
+add = a + b + c + d + e;
+sub = a - b - c - d - e;
+multi = a * b * c * d * e;
+divi = a / b / c / d / e;
+cout<<"addition is "<<add<<endl;
+cout<<"minus is "<<sub<<endl;
+cout<<"multiplication is "<<multi<<endl;
+cout<<"division is "<<divi<<endl;
+}
