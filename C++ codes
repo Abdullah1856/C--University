@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a, b, c, d, e, f;
+cout<<"Enter the first number \n";
+cin>>a;
+cout<<"Enter the second number \n";
+cin>>b;
+c = a + b;
+d = a - b;
+e = a * b;
+f = a / b;
+cout<<"addition is "<<c<<endl;
+cout<<"minus is "<<d<<endl;
+cout<<"multiplication is "<<d<<endl;
+cout<<"division is "<<f<<endl;
+}
