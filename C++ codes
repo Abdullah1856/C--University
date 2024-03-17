@@ -104,3 +104,32 @@ cout<<"minus is "<<sub<<endl;
 cout<<"multiplication is "<<multi<<endl;
 cout<<"division is "<<divi<<endl;
 }
+
+
+
+/* With Multi Functions More Organized With Reminder*/
+#include <iostream>
+using namespace std;
+
+int main() {
+int a, b, add, sub, multi;
+float divi, reminder;
+//int reminder;
+
+cout<<"Enter the first number \n";
+cin>>a;
+cout<<"Enter the second number \n";
+cin>>b;
+add = a + b;
+sub = a - b;
+multi = a * b;
+divi = (float)a / b;
+//divi = float (a / b);
+//divi = static_cast<float>(a) / b;
+reminder = a % b;
+cout<<"addition is "<<add<<endl;
+cout<<"minus is "<<sub<<endl;
+cout<<"multiplication is "<<multi<<endl;
+cout<<"division is "<<divi<<endl;
+cout<<"division is "<<reminder<<endl;
+}
