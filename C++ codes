@@ -133,3 +133,19 @@ cout<<"multiplication is "<<multi<<endl;
 cout<<"division is "<<divi<<endl;
 cout<<"division is "<<reminder<<endl;
 }
+
+
+/* Area Of Reactangle */
+#include <iostream>
+using namespace std;
+
+int main() {
+int height, width, area;
+
+cout<<"Enter the width of a rectangle \n";
+cin>>height;
+cout<<"Enter the height of a rectangle \n";
+cin>>width;
+area = height * width;
+cout<<"area of rectangle is "<<area<<endl;
+}
