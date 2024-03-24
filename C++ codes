@@ -168,3 +168,21 @@ perimeter = 2 * (height + width);
 cout<<"area of rectangle is "<<area<<endl;
 cout<<"Perimeter of rectangle is "<<perimeter<<endl;
 }
+
+
+/* Circle-Radius */
+#include <iostream>
+using namespace std;
+
+int main() {
+float radius, area, circum;
+const float pi = 3.14159;
+cout<<"Enter the radius of a circle \n";
+cin>>radius;
+area = pi * radius * radius;
+cout<<"area of circle is "<<radius<<endl;
+circum=2*pi*radius;
+cout<<"circum of circle is "<<circum<<endl;
+}
+
+
