@@ -186,3 +186,15 @@ cout<<"circum of circle is "<<circum<<endl;
 }
 
 
+/* Farhaint to celcius */
+#include <iostream>
+using namespace std;
+
+int main() {
+float celcius, fahrenhiet;
+cout<<"Enter the temperature in fahrenhiet \n";
+cin>>fahrenhiet;
+celcius = (fahrenhiet - 32) * 5 / 9;
+cout<<"temperature in celcius is "<<celcius<<endl;
+}
+
