@@ -235,3 +235,34 @@ int main () {
 	
 	return 0;
 }
+
+
+
+/* Hard As Fuck */
+#include<iostream>
+using namespace std;
+int main () {
+	int totalMarks = 500;
+	int math, physics, english, computer, science, obtainMarks;
+	float percentage;
+	cout<<"What is your math marks \n";
+	cin>>math;
+	cout<<"What is your physics marks \n";
+	cin>>physics;
+	cout<<"What is your english marks \n";
+	cin>>english;
+	cout<<"What is your computer marks \n";
+	cin>>computer;
+	cout<<"What is your science marks \n";
+	cin>>science;
+    obtainMarks = math + physics + english + computer + science;
+    cout<<"Obtain marks are "<<obtainMarks <<" \n";
+    percentage = (float) obtainMarks / totalMarks * 100;
+    cout<<"Your pecentage is "<<percentage <<" \n";
+    
+    if(percentage <= 80 ) {
+    	cout<<"Your Grade is A";
+	}
+	
+	return 0;
+}
