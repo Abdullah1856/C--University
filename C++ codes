@@ -219,19 +219,19 @@ cout<<"value of b is "<<b<<endl;
 }
 
 
-
-/* New Teacher C code */
-#include <stdio.h>
-#include <conio.h>
-int main (void)
-{
-	int n;
-	printf("Enter any number");
-	scanf (%d, &n);
-	for(int i = 1; i < = n; i++){
-	f = f * i;	
+/* If-Else */
+#include<iostream>
+using namespace std;
+int main () {
+	int age;
+	cout<<"What is you percentage \n";
+	cin>>age;
+	if(age >= 50) {
+		cout<<"The test is passed \n";
+	}
+	else{
+	cout<<"Your test is fail \n";
 	}
 	
-	print f ("fctorial = %d", f);
 	return 0;
 }
