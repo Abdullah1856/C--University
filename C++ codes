@@ -217,3 +217,21 @@ cout<<"value of c is "<<c<<endl;
 cout<<"value of a is "<<a<<endl;
 cout<<"value of b is "<<b<<endl;
 }
+
+
+
+/* New Teacher C code */
+#include <stdio.h>
+#include <conio.h>
+int main (void)
+{
+	int n;
+	printf("Enter any number");
+	scanf (%d, &n);
+	for(int i = 1; i < = n; i++){
+	f = f * i;	
+	}
+	
+	print f ("fctorial = %d", f);
+	return 0;
+}
