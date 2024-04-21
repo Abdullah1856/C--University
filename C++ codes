@@ -354,3 +354,34 @@ if(value1 <= value2 && value1 <= value3 ) {
 	
 	return 0;
 }
+
+
+/* Finding the greatest Number */
+#include <iostream>
+using namespace std;
+
+int main() {
+    int value1, value2, value3;
+    cout << "Enter the First value: ";
+    cin >> value1;
+    
+    cout << "Enter the Second value: ";
+    cin >> value2;
+    
+    cout << "Enter the Third value: ";
+    cin >> value3;
+
+if(value1 >= value2 && value1 >= value3 ) {
+		cout<<"Value1 is gratest";
+	}
+	else if(value2 >= value1 && value2 >= value3){
+	cout<<"Value2 is gratest";
+	} 
+	else if(value3 >= value1 && value3 >= value2){
+	cout<<"Value3 is gratest";
+	}else{
+		cout<<"all values are same";
+	}
+	
+	return 0;
+}
