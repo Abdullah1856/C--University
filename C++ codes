@@ -290,19 +290,19 @@ int main() {
     int ans = 27;
     
 ans += 10;
-cout << "answer is" << ans << endl;
+cout << "answer is " << ans << endl;
 
 ans -=7;
-cout << "answer is" << ans << endl;
+cout << "answer is " << ans << endl;
 
 ans *=2;
-cout << "answer is" << ans << endl;
+cout << "answer is " << ans << endl;
 
 ans /=3;
-cout << "answer is" << ans << endl;
+cout << "answer is " << ans << endl;
 
 ans %=3;
-cout << "answer is" << ans << endl;
+cout << "answer is " << ans << endl;
 
     return 0;
 }
