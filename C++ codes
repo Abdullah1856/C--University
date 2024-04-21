@@ -306,3 +306,20 @@ cout << "answer is " << ans << endl;
 
     return 0;
 }
+
+/How to find Root */
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+    int value;
+    cout << "Enter the value: ";
+    cin >> value;
+
+    // Example usage of a math function
+    squareRoot = sqrt(value);
+    cout << "Square root of " << value << " is: " << squareRoot << endl;
+
+    return 0;
+}
